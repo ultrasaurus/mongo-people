@@ -7,7 +7,6 @@ cd mongo-people
 in Gemfile, removed coffeescript, add
 ```
 gem "mongoid"
-gem "bson_ext"
 ```
 
 on the command line:
@@ -35,7 +34,7 @@ in Gemfile:
 ```
 gem "faker"
 ```
-Create modified [fake_poeple rake task](http://www.ultrasaurus.com/sarahblog/2009/12/creating-a-custom-rake-task/)
+Create modified [fake_people rake task](http://www.ultrasaurus.com/sarahblog/2009/12/creating-a-custom-rake-task/)
 
 ```
 rake admin:fake_people #prompts me for number of people
