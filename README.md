@@ -13,6 +13,7 @@ gem "bson_ext"
 on the command line:
 ```
 rails generate mongoid:config
+rails generate scaffold person name street city state
 ```
 
 
