@@ -1,4 +1,3 @@
-
 ```
 rails new mongo-people --skip-active-record --skip-test-unit
 cd mongo-people
@@ -6,7 +5,7 @@ cd mongo-people
 
 in Gemfile, removed coffeescript, add
 ```
-gem "mongoid"
+gem "mongoid", git: 'git://github.com/mongoid/mongoid.git'
 ```
 
 on the command line:
